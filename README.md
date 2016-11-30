@@ -1,5 +1,5 @@
-# cpuhackers
-PIP package of CPU hackers library
+# TebaloDev
+PIP developer package of tebalodev - Temperature, Battery and Load aware frequency governor.
 
 ## Installation
 
