@@ -1,3 +1,0 @@
-#!python
-import main
-main.expected_set_frequencies()
