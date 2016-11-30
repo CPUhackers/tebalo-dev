@@ -1,0 +1,8 @@
+setup.py
+tebalo-dev/__init__.py
+tebalo-dev/main.py
+tebalo-dev/utils.py
+tebalo_dev.egg-info/PKG-INFO
+tebalo_dev.egg-info/SOURCES.txt
+tebalo_dev.egg-info/dependency_links.txt
+tebalo_dev.egg-info/top_level.txt
