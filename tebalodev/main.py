@@ -29,7 +29,6 @@ def current_temperature(core):
 	return utils.get_core_temparature()[core]
 
 def reduce_level(freq):
-	
     no_of_avail_freqs = len(avail_freqs)	
 
     if freq == avail_freqs[no_of_avail_freqs-1]:
@@ -39,7 +38,6 @@ def reduce_level(freq):
     	if freq == avail_freqs[i] :
     		return avail_freqs[i+1]
 
-    #never comes here		
     return avail_freqs[no_of_avail_freqs/2]			
 
 def set_frequencies(freqs):
@@ -54,8 +52,6 @@ def set_frequencies(freqs):
 			else :
 				curr_freq = utils.get_current_frequency(i)
 				previous_level_freq = reduce_level(curr_freq)
-				print i 
-				print  "th core freq: " + curr_freq+ " hey: " + previous_level_freq
 		    	utils.set_core_frequency(i,previous_level_freq)	
 		time.sleep(2)    	
 
