@@ -60,6 +60,8 @@ def calculate_safe_temperature():
 	return 57
 
 def set_core_frequency(core_no, frequency):
+	command1 = "sudo cpufreq-set -c%s -g userspace" % (core_no)
+	os.system(command1)
 	command = "sudo cpufreq-set -c%s -f %s" % (core_no, frequency)
 	os.system(command)
 
