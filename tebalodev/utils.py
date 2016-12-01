@@ -54,9 +54,10 @@ def get_max_temparatures():
 	
 	return max_temparatures
 
+#Implementation of the function has to be changed !!
 def calculate_safe_temperature():
-	return max(get_max_temparatures()) - 3
-
+	#return max(get_max_temparatures()) - 3
+	return 57
 
 def set_core_frequency(core_no, frequency):
 	command = "sudo cpufreq-set -c%s -f %s" % (core_no, frequency)
